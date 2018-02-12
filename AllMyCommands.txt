@@ -1,0 +1,20 @@
+$ git init C:\Users\Hebaa\Desktop\SE\sprint0
+$ git add -A
+$ git rm --cached secondfile.txt
+$ git add secondfile.txt
+$ git config --global user.email "heba.abdelrazek@student.guc.edu.eg"
+$ git config --global user.name "HebaAbdelrazek"
+$ git commit -m "Added 3 files"
+$ git remote add origin https://github.com/HebaAbdelrazek/rep0.git
+$ git push -u origin master
+$ echo "Project Title: sprint0, Getting Started:introduction to github and git, Author: Heba Ahmed 37-5660, Acknowledgments: book Chacon, Scott, and Ben Straub. Pro Git. Apress,
+> 2014.)." > README.md
+$ git branch ReadMe
+$ git checkout ReadMe
+$ git add README.md
+$ git commit -m "Added README.md file to ReadMe branch"
+$ git checkout master
+$ git merge ReadMe
+$ git add AllMyCommands.txt
+$ git commit -m "Added AllMyCommands.txt file"
+$ git push -u origin master
